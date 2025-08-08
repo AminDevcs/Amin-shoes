@@ -23,3 +23,16 @@ input {
     padding-right: 20px;
     margin-right: 100px;
 }
+.c1{
+    padding-right: 5%;
+    background-color: red;
+    margin: 10%;
+    margin-top: 10px;    
+}
+.c2{
+    background-color: #05671c;
+    text-align: center;
+    margin: 10px 570px;
+    border-radius: 40px;
+    color: white;
+}
