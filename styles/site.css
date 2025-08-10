@@ -55,3 +55,9 @@ h1.label {
     text-shadow: 2px 2px 5px green;
     text-align: center;
 }
+.call{
+    position: fixed;
+    left: 10px;
+    bottom: 5px;
+    width: 77px;
+}
