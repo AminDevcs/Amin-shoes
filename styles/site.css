@@ -2,6 +2,7 @@ body {
     margin: 0;
     direction: rtl;
     background-color: #ffffff;
+    overflow-x: hidden;
 }
 
 img {
@@ -9,12 +10,37 @@ img {
     margin-top: 10px;
 }
 
-a {
+
+
+
+.menu {
+    position: relative;
+    top: -50px;
+    right: 150px;
+    
+}
+
+.menu a {
+    border-bottom: 2px solid black;
     text-decoration: none;
     color: black;
     font-size: large;
-    margin-right: 20px;
+    background-color: white;
+    margin: 20px;
+    }
 
+.search {
+    position: absolute;
+    left: 200px;
+    top: 0;
+    
+}
+.banner{
+    position: relative;
+    top: -30px;
+}
+a:hover{
+    color: hotpink;
 }
 
 input {
@@ -23,27 +49,33 @@ input {
     padding-left: 15px;
     padding-right: 20px;
     margin-right: 100px;
+    padding: 7px 50px;
+    
 }
 
-.c1 {
-    padding-right: 5%;
-    background-color: red;
-    margin: 10%;
-    margin-top: 10px;
+
+
+.service{
+    position: relative;
+    padding: 10px;
+}
+.service a{
+    position: relative;
+    margin: 70px;
+    text-decoration: none;
+    right: 150px;
+    top: -5px;
+    font-weight: bolder;
+    font-size: x-large;
+    color: #04430a;
 }
 
-.c2 {
-    background-color: #05671c;
-    text-align: center;
-    margin: 10px 570px;
-    border-radius: 40px;
-    color: white;
-}
-
-#shop {
+.shopping {
+    position: relative;
     direction: ltr;
-    margin-left: 4%;
-    margin-top: 30px;
+    left: 12%;
+    top: 8px;
+    
 }
 
 #label {
@@ -55,9 +87,38 @@ h1.label {
     text-shadow: 2px 2px 5px green;
     text-align: center;
 }
-.call{
+
+.call {
     position: fixed;
     left: 10px;
     bottom: 5px;
     width: 77px;
+}
+.image{
+    position: relative;
+    top: -80px;
+    right: 100px;
+    
+}
+.parentImage{
+    position: relative;
+    padding: 120px;
+    background-color: rgb(255, 0, 0);
+}
+.childImage{
+    position: absolute;
+    top: 20px;
+}
+.childImage img{
+    width: 200px;
+    height: 200px;
+    margin: 0 30px;
+}
+.text{
+    position: absolute;
+    background-color: #ffffff;
+    color: rgb(0, 51, 192);
+    right: 10px;
+    top: 40%;
+    font-size: x-large;
 }
