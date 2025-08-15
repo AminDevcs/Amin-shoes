@@ -1,3 +1,10 @@
+@font-face {
+    font-family: AminFont;
+    src: url(../fonts/persian.woff2);
+}
+* {
+    font-family: AminFont;
+}
 body {
     margin: 0;
     direction: rtl;
@@ -38,6 +45,8 @@ img {
 .banner{
     position: relative;
     top: -30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 a:hover{
     color: hotpink;
@@ -104,6 +113,9 @@ h1.label {
     position: relative;
     padding: 120px;
     background-color: rgb(255, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
 }
 .childImage{
     position: absolute;
